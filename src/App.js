@@ -71,9 +71,9 @@ class App extends Component {
   }
 
   formatTime = (time) => {
-    if (time == 0) {
+    if (time === 0) {
       return 'midnight'
-    } else if (time == 12) {
+    } else if (time === 12) {
       return 'noon'
     } else if (time < 12) {
       let newTime = time.slice(2,3)

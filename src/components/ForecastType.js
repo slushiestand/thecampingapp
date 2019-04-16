@@ -64,7 +64,7 @@ class ForecastType extends Component {
             <TypeContainer>
                 <City>{city}</City>
                 <Type onClick={this.toggleForcast} disabled={disabled}> 
-                    {this.state.hourly == true ? '3 hour forecast' : '5 day forecast'} 
+                    {this.state.hourly === true ? '3 hour forecast' : '5 day forecast'} 
                 </Type>
             </TypeContainer>
             <Verdict>{verdict}</Verdict>
