@@ -71,7 +71,7 @@ class App extends Component {
   }
 
   formatTime = (time) => {
-    if (time === 0) {
+    if (time == 0) {
       return 'midnight'
     } else if (time === 12) {
       return 'noon'
